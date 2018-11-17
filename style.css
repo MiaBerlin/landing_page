@@ -1,0 +1,97 @@
+
+body{
+  background: #F7F7F7;
+  color: grey;
+  font-size: 25px;
+  font-family: Roboto;
+}
+h1{
+  font-family: Courier;
+  color: black;
+  font-weight: strong;
+  font-size: 40px;
+}
+h2 {
+  font-family: Courier;
+  color: #94D1BE;
+  font-weight: strong;
+  font-size: 24px;
+}
+a {
+  color: black; text-decoration: none; 
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+#banner{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/312420/pexels-photo-312420.jpeg?cs=srgb&dl=aroma-art-artistic-312420.jpg&fm=jpg");
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.card{
+  padding: 50px;
+  font-weight: lighter;
+  background-color: grey;
+  margin: 25px;
+  text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+
+#logo {
+	width: 150px;
+	padding: 20px;
+	margin: 15px;
+}
+
+.navbar-wagon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-bar-links a:hover {
+	color: black;
+}
+
+.navbar-wagon-item {
+	padding: 20px;
+	margin-top: : 20px;
+	padding-top: 20px;
+
+}
+
+.carding {
+	padding: 20px
+  font-weight: lighter;
+  background-color: brown;
+  text-align: center;
+  width: 100vw;
+  margin-top: 20px;
+
+}
